@@ -11,6 +11,8 @@ import 'Screen/login flow/loginSignUp.dart';
 import 'Screen/login flow/passwordUpdated.dart';
 import 'Screen/login flow/updatePassword.dart';
 import 'Screen/notification/MessagesScreen.dart';
+import 'Screen/podcast/PodcastScreen.dart';
+import 'Screen/podcast/PodcastScreen2.dart';
 import 'Screen/profile/DarkBlissHistory.dart';
 import 'Screen/profile/DarkBlissHistoryCancel.dart';
 import 'Screen/profile/DarkBlissHistoryCancelConfirmation.dart';
@@ -195,8 +197,10 @@ class MyApp extends StatelessWidget {
         '/history2': (context) => BlissHistoryExpanded(),
         '/cancel': (context) => BlissCancel(),
         '/cancelConfirm': (context) => BlissCancelConfirmation(),
+        '/podcast': (context) => PodcastEpisodesPage1(),
         '/home': (context) => DarkHomeScreenBlack(),
         '//': (context) => DarkSearchPageBlack(),
+        '///': (context) => Podcast(),
         '////': (context) => DarkMessagesPageBlack(),
         '/////': (context) => DarkAccountSettingsPageBlack(),
       },
